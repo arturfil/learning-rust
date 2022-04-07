@@ -10,3 +10,9 @@ pub fn borrow_slice(arr: [u8; 6], slice: &[u8]) {
     println!("length: {}", slice.len());
     println!("{} {}", slice[0], slice[1]);
 }
+
+pub fn slice_vector(string: &mut Vec<u8>, slice: &[u8]){
+    
+    println!("{:?}", string);
+    println!("{:?}", slice);
+}
